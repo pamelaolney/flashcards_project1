@@ -13,3 +13,7 @@ User Stories
 - As a user, I want my flash cards to be able to be used offline.
 - As a user, I want to be able to swipe my cards away when I feel like I have a handle on that card and don't want to see it in my pile anymore.
 - As a user, I want my flash cards to have a sense of humor by having silly hint options. i.e. rhymes with bonsole.blog....answer, console.log!
+
+Wire Frame
+
+![Contact Wireframe](contact.jpg)
