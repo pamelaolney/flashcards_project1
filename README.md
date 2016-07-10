@@ -15,5 +15,8 @@ User Stories
 - As a user, I want my flash cards to have a sense of humor by having silly hint options. i.e. rhymes with bonsole.blog....answer, console.log!
 
 Wire Frame
-
+![Home Page Wireframe](home.jpg)
+![Instruction Page Wireframe](instructions.jpg)
+![Tests Page Wireframe](tests.jpg)
+![Music Page Wireframe](music.jpg)
 ![Contact Wireframe](contact.jpg)
