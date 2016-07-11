@@ -1,7 +1,11 @@
+* {
+  font-family: 'Athiti', sans-serif;
+}
 html, body{
   height: 100%;
 }
 
+/*header*/
 header{
   font-size: 3em;
   margin: 0 auto;
@@ -13,21 +17,79 @@ header a{
   text-decoration: none;
   color: black;
 }
+
+/*nav bar*/
 #nav {
-  width:50%;
-  margin:0 auto;
-  list-style:none;
-}
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: white;
+	border: 1px solid #ccc;  }
+#nav ul {
+	list-style: none;
+	width: 40%;
+	margin: 0 auto;
+	padding: 0; }
 #nav li {
-  float:left;
+	float: left; }
+#nav li a {
+	display: block;
+	padding: 8px 30px;
+	text-decoration: none;
+	color: black;
+	border-right: 1px solid #ccc; }
+#nav li:first-child a {
+	border-left: 1px solid #ccc; }
+#nav li a:hover {
+	color: white;
+	background-color: gray; }
+  font-weight: 900;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*flash cards*/
+.stage{
+  -webkit-perspective: 1000;
 }
-#nav a {
-  display:block;
-  text-align:center;
-  width:150px; /* fixed width */
-  text-decoration:none;
-  color: black;
-  border-top: 2px solid black;
-  border-bottom:2px solid black;
-  font-size: 20px;
+.card {
+  height: 300px;
+  width: 500px;
+  margin: 10% auto;
+  border: 2px solid gray;
+  box-shadow: 2px 2px 2px #000;
+  -webkit-transform-style: preserve-3d;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+.flipped, .back {
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+}
+.front, .back {
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+}
+.back {
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+}
+.front p, back p {
+  margin-top 25%;
+  font-size: 3em;
 }

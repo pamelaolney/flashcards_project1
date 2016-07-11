@@ -2,25 +2,44 @@
 
 <html>
   <head>
+    <!-- css link -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- font link -->
+    <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet' type='text/css'>
+    <!-- js link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="script.js"></script>
     <meta charset="utf-8">
-    <title>Flashy Flash Cards</title>
+    <title>Javascript Flash Cards</title>
   </head>
 
   <body>
   <!-- logo -->
-  <header> <a href='https://pamelaolney.github.io/flashcards_project1/'>Flashy Flash Cards</a></header>
+  <header> <a href='https://pamelaolney.github.io/flashcards_project1/'>Javascript Flash Cards</a></header>
 
   <!-- nav bar -->
   <br>
-  <ul class="clearfix" id="nav">
-    <li><a href="#" id="home">HOME</a></li>
-    <li><a href="#" id="instructions">INSTRUCTIONS</a></li>
-    <li><a href="#" id="music">MUSIC</a></li>
-    <li><a href="#" id="contact">CONTACT</a></li>
-  </ul>
+  <div id="nav">
+    <ul class="nav">
+      <li><a href="#" id="home">HOME</a></li>
+      <li><a href="#" id="instructions">INSTRUCTIONS</a></li>
+      <li><a href="#" id="music">MUSIC</a></li>
+      <li><a href="#" id="contact">CONTACT</a></li>
+    </ul>
+  </div>
   </br>
-<!-- flash card divs -->
+  <!-- opening flash card div -->
+  <div class="stage">
+    <div class="card">
+      <div class="front">
+        <p>Welcome!</p>
+      </div>
+      <div class="back">
+        <p>Click the button below when you're</p>
+        <p>ready to learn about Javascript!</p>
+      </div>
+    </div>
+  <!-- 20 javascript flash cards -->
+  </div>
   </body>
 </html>
