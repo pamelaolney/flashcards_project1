@@ -86,9 +86,9 @@ header a{
   font-size: 3em;
   font-weight:bold;
 }
-#line2 {
+.line2 {
   color: gray;
-  font-size: 1em;
+  font-size: .5em;
 }
 .back p {
   margin-top 25%;
