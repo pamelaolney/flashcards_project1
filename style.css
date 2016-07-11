@@ -7,10 +7,10 @@ html, body{
 
 /*header*/
 header{
-  font-size: 3em;
+  font-size: 5em;
   margin: 0 auto;
   text-align: center;
-  width:50%;
+  width:60%;
   display:block;
 }
 header a{
@@ -25,42 +25,34 @@ header a{
 	margin: 0 0 1em 0;
 	padding: 0;
 	background-color: white;
-	border: 1px solid #ccc;  }
+	border: 1px solid #ccc;
+}
 #nav ul {
 	list-style: none;
 	width: 40%;
 	margin: 0 auto;
-	padding: 0; }
+	padding: 0;
+}
 #nav li {
-	float: left; }
+	float: left;
+}
 #nav li a {
 	display: block;
 	padding: 8px 30px;
 	text-decoration: none;
 	color: black;
-	border-right: 1px solid #ccc; }
+	border-right: 1px solid #ccc;
+}
 #nav li:first-child a {
-	border-left: 1px solid #ccc; }
+	border-left: 1px solid #ccc;
+}
 #nav li a:hover {
 	color: white;
-	background-color: gray; }
-  font-weight: 900;
+	background-color: gray;
+  font-weight: bold;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*flash cards*/
+/*flash card intro*/
 .stage{
   -webkit-perspective: 1000;
 }
@@ -89,7 +81,65 @@ header a{
   transform: rotateX(180deg);
   -webkit-transform: rotateX(180deg);
 }
-.front p, back p {
+.front p {
   margin-top 25%;
   font-size: 3em;
+  font-weight:bold;
+}
+#line2 {
+  color: gray;
+  font-size: 1em;
+}
+.back p {
+  margin-top 25%;
+  font-size: 2em;
+}
+
+/*button to start*/
+#beginlearning {
+  height: 100px;
+  width: 250px;
+  border-radius: 30%;
+  margin: 0 auto;
+  display: block;
+  font-size: 2em;
+}
+#beginlearning a {
+  text-decoration: none;
+  color: black;
+}
+
+/*dancing cat*/
+#dancecat{
+  display: block;
+  margin: 0 auto;
+}
+
+/* ------- flashcardgame.html-----------*/
+
+/*button options*/
+#howtobegin {
+  font-size: 2em;
+}
+#choice{
+  margin: 0 auto;
+  width: 50%;
+}
+.buttonchoice {
+  margin:0 auto;
+  width: 100%;
+}
+#random {
+  height: 100px;
+  width: 250px;
+  border-radius: 30%;
+  display: inline-block;
+  font-size: 2em;
+}
+#inorder {
+  height: 100px;
+  width: 250px;
+  border-radius: 30%;
+  display: inline-block;
+  font-size: 2em;
 }
