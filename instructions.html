@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-<head>
+  <head>
     <!-- css link -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- font link -->
@@ -11,39 +11,41 @@
     <script src="script.js"></script>
     <meta charset="utf-8">
     <title>Flash Cards</title>
-</head>
+  </head>
 
-<body>
-<!-- logo -->
-<header> <a href='index.html'>Flash Cards</a></header>
-
+  <body>
+  <!-- logo -->
+  <header> <a href='index.html'>Flash Cards</a></header>
 
   <!-- nav bar -->
-  <br>
+
   <div id="nav">
     <ul class="nav">
-      <li><a href="#" id="home">HOME</a></li>
-      <li><a href="#" id="instructions">INSTRUCTIONS</a></li>
-      <li><a href="#" id="music">MUSIC</a></li>
-      <li><a href="#" id="contact">CONTACT</a></li>
+      <li><a href="index.html" id="home">HOME</a></li>
+      <li><a href="instructions.html" id="instructions">INSTRUCTIONS</a></li>
+      <li><a href="music.html" id="music">MUSIC</a></li>
+      <li><a href="contact.html" id="contact">CONTACT</a></li>
     </ul>
   </div>
-  </br>
+
   <!-- opening flash card div -->
   <div class="stage">
     <div class="card">
       <div class="front">
-        <p>Step 1</p>
+          <p>Steps</p>
+          <p id='line2'>(Click to Flip)</p>
       </div>
-      <div class="back">
-        <p>Pick a theme</p>
+      <div class="back" id="steps">
+        <ol>
+          <li>Cut off distractions</li>
+          <li>Pick a Theme</li>
+          <li>Choose some music</li>
+          <li>Click below to begin to learn</li>
+        </ol>
       </div>
-    </div>
-    <button>Begin Learning!</button>
-    <br>
-    <img id='dancecat' src='https://github.com/pamelaolney/flashcards_project1/blob/gh-pages/tumblr_mhjhn6ex8A1rum37jo1_400.gif?raw=true'/>
-    </br>
-  <!-- 20 javascript flash cards -->
+  </div>
+
+
   </div>
   </body>
 </html>

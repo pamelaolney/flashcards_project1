@@ -52,7 +52,7 @@ header a{
   font-weight: bold;
 }
 
-/*flash card intro*/
+/**********flash card CSS********/
 .stage{
   -webkit-perspective: 1000;
 }
@@ -86,14 +86,25 @@ header a{
   font-size: 3em;
   font-weight:bold;
 }
-.line2 {
+
+#line2 {
   color: gray;
-  font-size: .5em;
+  font-size: 1em;
 }
+
 .back p {
   margin-top 25%;
   font-size: 2em;
 }
+
+/*steps flashcard*/
+
+#steps{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
 
 /*button to start*/
 #beginlearning {
@@ -112,30 +123,6 @@ header a{
 
 
 /* ------- flashcardgame.html-----------*/
-
-
-/*previous and next buttons*/
-
-/*.next {
-  height: 50px;
-  width: 100px;
-  display:inline-block;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-.previous {
-  height: 50px;
-  width: 100px;
-  display: inline-block;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}*/
-
-
-
-
 
 
 
@@ -196,39 +183,3 @@ header a{
         .tab.active {
             display:block;
         }
-
-
-
-
-
-
-
-
-/*button options*/
-#howtobegin {
-  font-size: 2em;
-}
-#choice{
-  margin: 0 auto;
-  width: 50%;
-}
-.buttonchoice {
-  margin:0 auto;
-  width: 100%;
-}
-#random {
-  height: 100px;
-  width: 250px;
-  border-radius: 30%;
-  display: inline-block;
-  font-size: 2em;
-}
-#inorder {
-  text-decoration: none;
-  color: black;
-  height: 100px;
-  width: 250px;
-  border-radius: 30%;
-  display: inline-block;
-  font-size: 2em;
-}

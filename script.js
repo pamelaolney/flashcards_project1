@@ -22,16 +22,18 @@ $(document).ready(function() {
 //next & prev button
 
 
-
-
-
-
-
-
-
-
-
 //prompt user to imput content onto card
+
+
+var question1 = {
+  question:'Whats my name?'
+},
+
+
+
+
+
+
 
 
 // //hide the button after click
@@ -40,3 +42,12 @@ $(document).ready(function() {
 //   });
 
 });
+
+//
+//new way of flipping through flashcards
+//
+// var flashcards =[
+//   {question: {prompt("please input question here")} , answer: "yes"}
+// ]
+//
+// $("div.front").html(flashcard[0].question)
