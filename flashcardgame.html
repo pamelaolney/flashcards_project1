@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <!-- css link -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- font link -->
-    <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet' type='text/css'>
-    <!-- js link -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="script.js"></script>
-    <meta charset="utf-8">
-    <title>Javascript Flash Cards</title>
-  </head>
+<head>
+  <!-- css link -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- font link -->
+  <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet' type='text/css'>
+  <!-- js link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <meta charset="utf-8">
+  <title>Flash Cards</title>
+</head>
 
-  <body>
-  <!-- logo -->
-  <header> <a href='https://pamelaolney.github.io/flashcards_project1/'>Javascript Flash Cards
-  </a></header>
+<body>
+<!-- logo -->
+<header> <a href='index.html'>Flash Cards</a></header>
+
 
   <!-- nav bar -->
   <br>
@@ -29,67 +29,127 @@
     </ul>
   </div>
 
-<!-- button choices -->
-<div id='choice'>
+
+
+<!-- tabs for flashcards -->
+  <br>
+    <div class="tabs">
+        <ul class="tab-links">
+            <li class="active"><a href="#tab1">1</a></li>
+            <li><a href="#tab2">2</a></li>
+            <li><a href="#tab3">3</a></li>
+            <li><a href="#tab4">4</a></li>
+            <li><a href="#tab5">5</a></li>
+        </ul>
+
+        <div class="tab-content">
+
+          <!-- TAB 1 -->
+            <div id="tab1" class="tab active">
+
+                <div class="stage">
+                  <div class="card">
+                    <div class="front">
+                        <p>Question 1</p>
+                    </div>
+                    <div class="back">
+                      <p>Answer 1</p>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+
+          <!-- TAB 2 -->
+            <div id="tab2" class="tab">
+
+                <div class="stage">
+                  <div class="card">
+                    <div class="front">
+                        <p>Question 2</p>
+                    </div>
+                    <div class="back">
+                      <p>Answer 2</p>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+
+          <!-- TAB 3 -->
+            <div id="tab3" class="tab">
+
+                <div class="stage">
+                  <div class="card">
+                    <div class="front">
+                        <p>Question 3</p>
+                    </div>
+                    <div class="back">
+                      <p>Answer 3</p>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+
+          <!-- TAB 4 -->
+            <div id="tab4" class="tab">
+
+                <div class="stage">
+                  <div class="card">
+                    <div class="front">
+                        <p>Question 4</p>
+                    </div>
+                    <div class="back">
+                      <p>Answer 4</p>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+
+          <!-- TAB 5 -->
+            <div id="tab5" class="tab">
+              <div class="stage">
+                <div class="card">
+                  <div class="front">
+                      <p>Question 5</p>
+                  </div>
+                  <div class="back">
+                    <p>Answer 5</p>
+                  </div>
+              </div>
+            </div>
+
+
+<!-- below is close div for tab-content -->
+        </div>
+
+<!-- below is close div for class tabs -->
+    </div>
+  </br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- button choic\es -->
+<!-- <div id='choice'>
   <p id='howtobegin'> How would you like to begin studying?</p>
   <button class='buttonchoice' id='random'>Random</button>
-  <button class='buttonchoice' id='inorder'>In Order</button>
-</div>
+  <button class='buttonchoice' id='inorder'><a href="questionsinorder.html">In Order</button>
+</div> -->
 
-<!-- Question 1 -->
-<div class="stage">
-  <div class="card">
-    <div class="front">
-      <p>Q1</p>
-      <p id='line2'>(Click to Flip)</p>
-    </div>
-    <div class="back">
-      <p>A1</p>
-    </div>
-</div>
-<!-- Question 2 -->
 
-<div class="stage">
-  <div class="card">
-    <div class="front">
-      <p>Q2</p>
-      <p id='line2'>(Click to Flip)</p>
-    </div>
-    <div class="back">
-      <p>A2</p>
-    </div>
-</div>
-<!-- Question 3 -->
-
-<!-- Question 4 -->
-
-<!-- Question 5 -->
-
-<!-- Question 6 -->
-
-<!-- Question 7 -->
-
-<!-- Question 8 -->
-
-<!-- Question 9 -->
-
-<!-- Question 10 -->
-
-<!-- Question 11 -->
-
-<!-- Question 12 -->
-
-<!-- Question 13 -->
-
-<!-- Question 14 -->
-
-<!-- Question 15 -->
-
-<!-- Question 16 -->
-<!-- Question 17 -->
-
-<!-- Question 18 -->
-<!-- Question 19 -->
-<!-- Question 20 -->
   </body>
 </html>
