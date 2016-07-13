@@ -24,6 +24,7 @@ header a{
 	padding: 0;
 	background-color: white;
 	border: 1px solid #ccc;
+  min-width: 100px;
 }
 #nav ul {
 	list-style: none;
@@ -107,12 +108,12 @@ header a{
 
 /*button to start*/
 .getstarted {
-  height: 100px;
-  width: 200px;
+  height: 60px;
+  width: 100px;
   border-radius: 30%;
   margin: 0 auto;
   display: block;
-  font-size: 2em;
+  font-size: 1em;
   bottom: 100px;
   position: relative;
 }

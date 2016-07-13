@@ -1,7 +1,7 @@
 $(document).ready(function() {
 //flip the flashcard
   $('.card').on('click', function() {
-    $('.card').toggleClass('flipped');
+    $(this).toggleClass('flipped');
   });
 
 
