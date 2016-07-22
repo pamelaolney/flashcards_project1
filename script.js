@@ -1,6 +1,22 @@
+/// My commentys will ahve triple slashes
+
+/// This is really solid project-- very well planned, great layout, flexible to suit the user's needs. The additional feautres you had planned would add a lot of character to your flash card app as well
+
+/// Refactoring opportunities:
+/* 1. Tabs: instead of having 5 separate tabs in the HTML, you could have 1 and 'fake ' having 5: there'd still be the tab <li>s, but there'd just be 1 card on the screen. clicking the different buttons would change the inner html of the card on the stage div. Your cards array could have items which each correspond to a tab.
+
+You could use the .html() of the tabs to call the appropriate value from the cards array, also.
+
+This would DRY up your javascript as well!
+
+2. Add in more named functions to help organize your code, and reference them in your event listeners, rather than using anonymous callbacks
+
+*/
 $(document).ready(function() {
 //flip the flashcard
+
   $('.card').on('click', function() {
+    ///nice use of toggleClass! very simple and elegant way to handle animating the cards
     $('.card').toggleClass('flipped');
   });
 
@@ -15,6 +31,8 @@ $(document).ready(function() {
         // Change/remove current tab to active
         $(this).parent('li').addClass('active').siblings().removeClass('active');
 
+
+        /// I would move this up to the top of the function
         e.preventDefault();
     });
 
@@ -25,11 +43,14 @@ $(document).ready(function() {
 //prompt user to imput content onto card
 
 
-
+/// You could add 4 more items to correspond to each tab
 var flashcards =[
   {question: "(Question)",
    answer: "(Answer)"}
 ]
+
+/// See comment #1 about DRYing up your code
+
 //--------tab 1 input ----------------|
 $("#tab1front").html(flashcards[0].question)
 
@@ -110,6 +131,9 @@ $(".insertAnswer5").on("click", function(){
   $("#tab5back").eq(0).html(insertAnswerButton).css("font-size", "32px");
 })
 
+
+///This would be a cool feature!
+
 //hide the music after click
   $('#hidemusic').click(function () {
            $("iframe").hide();
@@ -125,3 +149,7 @@ $(".insertAnswer5").on("click", function(){
 
 
 // new way of flipping through flashcards
+
+
+///Like a random flash card function here?
+/// that might look like
