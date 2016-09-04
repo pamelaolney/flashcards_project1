@@ -91,11 +91,13 @@ header a{
   text-align: center;
   -webkit-backface-visibility: hidden;
 }
+
 .back, .back1 {
   transform: rotateX(180deg);
   -webkit-transform: rotateX(180deg);
   background: white;
 }
+
 .front p {
   margin-top 25%;
   font-size: 3em;
@@ -126,7 +128,7 @@ header a{
 .getstarted{
   width: 200px;
   border-radius: 30%;
-  margin: 0 auto;
+  margin: 1% auto;
   display: block;
   font-size: 2em;
   bottom: 100px;
@@ -204,4 +206,8 @@ li.active a, li.active a:hover {
 
 .tab.active {
   display:block;
+}
+
+.insertbutton {
+  margin: 0 38%;
 }
