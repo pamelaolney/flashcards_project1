@@ -18,35 +18,35 @@ header a{
 
 /*nav bar*/
 #nav {
-	width: 100%;
-	float: left;
-	margin: 0 0 1em 0;
-	padding: 0;
-	background-color: white;
-	border: 1px solid #ccc;
+  width: 100%;
+  float: left;
+  margin: 0 0 1em 0;
+  padding: 0;
+  background-color: white;
+  border: 1px solid #ccc;
 }
 #nav ul {
-	list-style: none;
-	width: 32%;
-	margin: 0 auto;
-	padding: 0;
+  list-style: none;
+  width: 32%;
+  margin: 0 auto;
+  padding: 0;
 }
 #nav li {
-	float: left;
+  float: left;
 }
 #nav li a {
-	display: block;
-	padding: 8px 30px;
-	text-decoration: none;
-	color: black;
-	border-right: 1px solid #ccc;
+  display: block;
+  padding: 8px 30px;
+  text-decoration: none;
+  color: black;
+  border-right: 1px solid #ccc;
 }
 #nav li:first-child a {
-	border-left: 1px solid #ccc;
+  border-left: 1px solid #ccc;
 }
 #nav li a:hover {
-	color: white;
-	background-color: gray;
+  color: white;
+  background-color: gray;
   font-weight: bold;
 }
 
@@ -123,8 +123,7 @@ header a{
 
 
 /*button to start*/
-.getstarted {
-  height: 100px;
+.getstarted{
   width: 200px;
   border-radius: 30%;
   margin: 0 auto;
@@ -132,12 +131,17 @@ header a{
   font-size: 2em;
   bottom: 100px;
   position: relative;
-}
-.getstarted a {
   text-decoration: none;
-  color: black;
+  color: white;
+  background: black;
+  text-align: center;
 }
 
+.getstarted:hover{
+  border: 2px solid black;
+  background: white;
+  color: black;
+}
 
 
 /* ------- flashcardgame.html-----------*/
@@ -147,57 +151,57 @@ header a{
 /*tabs for flashcard game*/
 /*----- Tabs -----*/
 .tabs {
-    width:100%;
-    display:inline-block;
+  width:100%;
+  display:inline-block;
 }
 
-    /*----- Tab Links -----*/
-    /* Clearfix */
-    .tab-links:after {
-        display:block;
-        clear:both;
-        content:'';
-    }
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+  display:block;
+  clear:both;
+  content:'';
+}
 
-    .tab-links li {
-        margin:0px 5px;
-        float:left;
-        list-style:none;
-    }
+.tab-links li {
+  margin:0px 5px;
+  float:left;
+  list-style:none;
+}
 
-        .tab-links a {
-            padding:18px 30px;
-            display:inline-block;
-            border-radius:3px 3px 0px 0px;
-            background:#7FB5DA;
-            font-size:16px;
-            font-weight:600;
-            color:#4c4c4c;
-            transition:all linear 0.15s;
-        }
+.tab-links a {
+  padding:18px 30px;
+  display:inline-block;
+  border-radius:3px 3px 0px 0px;
+  background:#7FB5DA;
+  font-size:16px;
+  font-weight:600;
+  color:#4c4c4c;
+  transition:all linear 0.15s;
+}
 
-        .tab-links a:hover {
-            background:#a7cce5;
-            text-decoration:none;
-        }
+.tab-links a:hover {
+  background:#a7cce5;
+  text-decoration:none;
+}
 
-    li.active a, li.active a:hover {
-        background:#fff;
-        color:#4c4c4c;
-    }
+li.active a, li.active a:hover {
+  background:#fff;
+  color:#4c4c4c;
+}
 
-    /*----- Content of Tabs -----*/
-    .tab-content {
-        padding:15px;
-        border-radius:3px;
-        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
-        background:#fff;
-    }
+/*----- Content of Tabs -----*/
+.tab-content {
+  padding:15px;
+  border-radius:3px;
+  box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+  background:#fff;
+}
 
-        .tab {
-            display:none;
-        }
+.tab {
+  display:none;
+}
 
-        .tab.active {
-            display:block;
-        }
+.tab.active {
+  display:block;
+}
