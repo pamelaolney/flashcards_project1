@@ -51,8 +51,11 @@ header a{
 }
 
 /**********flash card CSS********/
+
+
 .stage{
   -webkit-perspective: 1000;
+  perspective: 800px;
 }
 .card {
   height: 300px;
@@ -61,13 +64,26 @@ header a{
   border: 2px solid gray;
   box-shadow: 2px 2px 2px #000;
   -webkit-transform-style: preserve-3d;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
+  transform-style: preserve-3d;
+  transition: transform 0.3s;
+  -webkit-transition: transform 0.3s;
 }
+
+.card figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
 .flipped, .back, .back1 {
   transform: rotateX(180deg);
   -webkit-transform: rotateX(180deg);
 }
+
 .front, .back, .front1, .back1 {
   height: 300px;
   width: 500px;
@@ -78,6 +94,7 @@ header a{
 .back, .back1 {
   transform: rotateX(180deg);
   -webkit-transform: rotateX(180deg);
+  background: white;
 }
 .front p {
   margin-top 25%;
