@@ -1,6 +1,6 @@
-# flashcards_project1
+# Flashcards
 
-User Stories
+##User Stories
 
 A web application using HTML/ CSS, JavaScript and jQuery.
 
