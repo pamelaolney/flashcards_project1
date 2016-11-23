@@ -139,38 +139,32 @@ header a:hover{
 }
 
 
-/*nav bar*/
-#nav {
-  width: 100%;
-  float: left;
-  margin: 1%;
-  padding: 0;
-  background-color: white;
+/.custom-nav bar*/
+.custom-nav {
   border: 1px solid #ccc;
 }
-#nav ul {
+.custom-nav ul {
   list-style: none;
-  width: 32%;
-  margin: 0 auto;
-  padding: 0;
+  border: 1px solid #ccc;
 }
-#nav li {
-  float: left;
-}
-#nav li a {
+
+.custom-nav li a {
   display: block;
   padding: 8px 10px;
   text-decoration: none;
   color: black;
-  border-right: 1px solid #ccc;
+  border: 1px solid #ccc;
+  background-color: white;
 }
-#nav li:first-child a {
-  border-left: 1px solid #ccc;
-}
-#nav li a:hover {
+
+.custom-nav li a:hover {
   color: white;
   background-color: gray;
   font-weight: bold;
+}
+
+nav{
+  background: gray;
 }
 
 /**********flash card CSS********/
