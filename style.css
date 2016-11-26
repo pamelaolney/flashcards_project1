@@ -5,8 +5,8 @@
 }
 
 body {
-  background: url("background.jpg") center;
-  background-size: 100%;
+  background: url("background.jpg") no-repeat;
+  background-attachment: fixed;
   /*background: linear-gradient(white, white, #4b5668);*/
 }
 
@@ -23,158 +23,44 @@ header a{
   color: white;
   font-family: 'Cherry Swash', cursive;
   text-shadow: 2px 2px 4px gray;
+  display: inline-block;
+  font-size: 70px;
+  cursor: pointer;
+  margin: 20px;
+  height: 90px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
 }
 
 header a:hover{
   text-decoration: none;
 }
 
-.hovicon {
-    display: inline-block;
-    font-size: 70px;
-    line-height: 90px;
-    cursor: pointer;
-    margin: 20px;
-    height: 90px;
-    text-align: center;
-    text-decoration: none;
-    z-index: 1; */
-    position: relative;
-    border-radius: 50%;
+form {
+  padding: 30px;
 }
 
-.hovicon.auto-width {
-    width: auto;
-    height: auto;
-    padding: 15px;
-}
-.hovicon:after {
-    pointer-events: none;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    content:'';
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-}
-.hovicon:before {
-    speak: none;
-    font-size: 48px;
-    line-height: 90px;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    display: block;
-    -webkit-font-smoothing: antialiased;
-}
-.hovicon.effect-8 {
-    background: rgba(255, 255, 255, 0.1);
-    -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
-    -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
-    transition: transform ease-out 0.1s, background 0.2s;
-}
-.hovicon.effect-8:after {
-    top: 0;
-    left: 0;
-    padding: 0;
-    z-index: -1;
-    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
-    opacity: 0;
-    -webkit-transform: scale(0.9);
-    -moz-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
-}
-.hovicon.effect-8:hover {
-    background: rgba(255, 255, 255, 0.05);
-    -webkit-transform: scale(0.93);
-    -moz-transform: scale(0.93);
-    -ms-transform: scale(0.93);
-    transform: scale(0.93);
-    color: black;
-}
-.hovicon.effect-8:hover i {
-    color: #fff;
-}
-.hovicon.effect-8:hover:after {
-    -webkit-animation: sonarEffect 1.3s ease-out 75ms;
-    -moz-animation: sonarEffect 1.3s ease-out 75ms;
-    animation: sonarEffect 1.3s ease-out 75ms;
-}
-@-webkit-keyframes sonarEffect {
-    0% {
-        opacity: 0.3;
-    }
-    40% {
-        opacity: 0.5;
-        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5);
-    }
-    100% {
-        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5);
-        -webkit-transform: scale(1.5);
-        opacity: 0;
-    }
-}
-@-moz-keyframes sonarEffect {
-    0% {
-        opacity: 0.3;
-    }
-    40% {
-        opacity: 0.5;
-        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5);
-    }
-    100% {
-        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5);
-        -moz-transform: scale(1.5);
-        opacity: 0;
-    }
-}
-@keyframes sonarEffect {
-    0% {
-        opacity: 0.3;
-    }
-    40% {
-        opacity: 0.5;
-        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5);
-    }
-    100% {
-        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5);
-        transform: scale(1.5);
-        opacity: 0;
-    }
-}
-
-
-/.custom-nav bar*/
-.custom-nav {
-  border: 1px solid #ccc;
-}
-.custom-nav ul {
-  list-style: none;
-  border: 1px solid #ccc;
-}
-
-.custom-nav li a {
+/*button to start*/
+.getstarted{
+  width: 200px;
+  /*border-radius: 30%;*/
+  margin: 1% auto;
   display: block;
-  padding: 8px 10px;
+  font-size: 2em;
+  bottom: 100px;
+  position: relative;
   text-decoration: none;
-  color: black;
-  border: 1px solid #ccc;
-  background-color: white;
+  color: gray;
+  background: white;
+  text-align: center;
 }
 
-.custom-nav li a:hover {
-  color: white;
-  background-color: gray;
-  font-weight: bold;
+.getstarted:hover{
+background: rgba(0, 0, 0, 0.5);
+color: white;
 }
 
-nav{
-  background: gray;
-}
 
 /**********flash card CSS********/
 
@@ -235,6 +121,7 @@ nav{
 }
 
 #line2 {
+  font-family: sans-serif;
   color: gray;
   font-size: 1em;
 }
@@ -255,26 +142,6 @@ nav{
 
 
 
-/*button to start*/
-.getstarted{
-  width: 200px;
-  /*border-radius: 30%;*/
-  margin: 1% auto;
-  display: block;
-  font-size: 2em;
-  bottom: 100px;
-  position: relative;
-  text-decoration: none;
-  color: white;
-  background: blacksmoke;
-  text-align: center;
-}
-
-/*.getstarted:hover{
-  border: 2px solid black;
-  background: white;
-  color: black;
-}*/
 
 
 /* ------- flashcardgame.html-----------*/
