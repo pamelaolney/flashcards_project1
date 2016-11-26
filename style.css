@@ -209,3 +209,7 @@ li.active a, li.active a:hover {
 .insertbutton {
   margin: 0 38%;
 }
+
+.insertbutton button{
+  font-family: sans-serif;
+}
