@@ -34,14 +34,14 @@ var flashcards =[
    answer: "(Answer)"}
 ]
 //--------tab 1 insert ----------------|
-$("#tab1front").html(flashcards[0].question)
+$("#tab1front").html(flashcards[0].question).css({"font-size": "12px", "font-family": "sans-serif", "padding-top": "25%"});
 
 $(".insertQuestion").on("click", function(){
   var insertQuestionButton= prompt("Please insert your question or term here");
   $("#tab1front").eq(0).html(insertQuestionButton).css("font-size", "40px");
 })
 
-$("#tab1back").html(flashcards[0].answer)
+$("#tab1back").html(flashcards[0].answer).css({"font-size": "12px", "font-family": "sans-serif", "padding-top": "25%"});
 
 $(".insertAnswer").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
