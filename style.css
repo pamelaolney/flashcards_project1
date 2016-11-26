@@ -1,19 +1,28 @@
 @import "compass/css3";
 
 * {
-  font-family: 'Athiti', sans-serif;
+  font-family: 'Swanky and Moo Moo', sans-serif;
 }
 
+body {
+  background: url("background.jpg") center;
+  background-size: 100%;
+  /*background: linear-gradient(white, white, #4b5668);*/
+}
 
 /*header*/
 header{
   text-align: center;
   display:block;
+  /*background: white;*/
+  /*border: 1px solid green;*/
+  /*text-shadow: 2px 2px 4px black;*/
 }
 header a{
   text-decoration: none;
-  color: black;
-  font-family: 'Vast Shadow', cursive;
+  color: white;
+  font-family: 'Cherry Swash', cursive;
+  text-shadow: 2px 2px 4px gray;
 }
 
 header a:hover{
@@ -22,7 +31,7 @@ header a:hover{
 
 .hovicon {
     display: inline-block;
-    font-size: 45px;
+    font-size: 70px;
     line-height: 90px;
     cursor: pointer;
     margin: 20px;
@@ -201,6 +210,9 @@ nav{
   -webkit-transform: rotateX(180deg);
 }
 
+.front {
+  background: whitesmoke;
+}
 .front, .back, .front1, .back1 {
   height: 300px;
   width: 500px;
@@ -212,7 +224,8 @@ nav{
 .back, .back1 {
   transform: rotateX(180deg);
   -webkit-transform: rotateX(180deg);
-  background: white;
+  background: url('flashcard.png') center;
+  background-size: 100%;
 }
 
 .front p {
@@ -228,7 +241,8 @@ nav{
 
 .back p {
   margin-top 25%;
-  font-size: 2em;
+  padding-top: 15%;
+  font-size: 2.5em;
 }
 
 /*steps flashcard*/
@@ -244,7 +258,7 @@ nav{
 /*button to start*/
 .getstarted{
   width: 200px;
-  border-radius: 30%;
+  /*border-radius: 30%;*/
   margin: 1% auto;
   display: block;
   font-size: 2em;
@@ -252,15 +266,15 @@ nav{
   position: relative;
   text-decoration: none;
   color: white;
-  background: black;
+  background: blacksmoke;
   text-align: center;
 }
 
-.getstarted:hover{
+/*.getstarted:hover{
   border: 2px solid black;
   background: white;
   color: black;
-}
+}*/
 
 
 /* ------- flashcardgame.html-----------*/
