@@ -50,14 +50,14 @@ $(".insertAnswer").on("click", function(){
 
 //--------tab 2 insert -----------------|
 
-$("#tab2front").html(flashcards[0].question)
+$("#tab2front").html(flashcards[0].question).css({"font-size": "12px", "font-family": "sans-serif", "padding-top": "25%"});
 
 $(".insertQuestion2").on("click", function(){
   var insertQuestionButton= prompt("Please insert your question or term here");
   $("#tab2front").eq(0).html(insertQuestionButton).css("font-size", "40px");
 })
 
-$("#tab2back").html(flashcards[0].answer)
+$("#tab2back").html(flashcards[0].answer).css({"font-size": "12px", "font-family": "sans-serif", "padding-top": "25%"});
 
 $(".insertAnswer2").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
@@ -67,14 +67,14 @@ $(".insertAnswer2").on("click", function(){
 
 //--------tab 3 insert -----------------|
 
-$("#tab3front").html(flashcards[0].question)
+$("#tab3front").html(flashcards[0].question).css({"font-size": "12px", "font-family": "sans-serif", "padding-top": "25%"});
 
 $(".insertQuestion3").on("click", function(){
   var insertQuestionButton= prompt("Please insert your question or term here");
   $("#tab3front").eq(0).html(insertQuestionButton).css("font-size", "40px");
 })
 
-$("#tab3back").html(flashcards[0].answer)
+$("#tab3back").html(flashcards[0].answer).css({"font-size": "12px", "font-family": "sans-serif", "padding-top": "25%"});
 
 $(".insertAnswer3").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
@@ -83,14 +83,14 @@ $(".insertAnswer3").on("click", function(){
 
 //--------tab 4 insert -----------------|
 
-$("#tab4front").html(flashcards[0].question)
+$("#tab4front").html(flashcards[0].question).css({"font-size": "12px", "font-family": "sans-serif", "padding-top": "25%"});
 
 $(".insertQuestion4").on("click", function(){
   var insertQuestionButton= prompt("Please insert your question or term here");
   $("#tab4front").eq(0).html(insertQuestionButton).css("font-size", "40px");
 })
 
-$("#tab4back").html(flashcards[0].answer)
+$("#tab4back").html(flashcards[0].answer).css({"font-size": "12px", "font-family": "sans-serif", "padding-top": "25%"});
 
 $(".insertAnswer4").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
@@ -99,14 +99,14 @@ $(".insertAnswer4").on("click", function(){
 
 //--------tab 5 insert -----------------|
 
-$("#tab5front").html(flashcards[0].question)
+$("#tab5front").html(flashcards[0].question).css({"font-size": "12px", "font-family": "sans-serif", "padding-top": "25%"});
 
 $(".insertQuestion5").on("click", function(){
   var insertQuestionButton= prompt("Please insert your question or term here");
   $("#tab5front").eq(0).html(insertQuestionButton).css("font-size", "40px");
 })
 
-$("#tab5back").html(flashcards[0].answer)
+$("#tab5back").html(flashcards[0].answer).css({"font-size": "12px", "font-family": "sans-serif", "padding-top": "25%"});
 
 $(".insertAnswer5").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
