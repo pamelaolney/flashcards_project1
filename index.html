@@ -2,10 +2,12 @@
 
 <html>
   <head>
+    <!--bootstrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- css link -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- font link -->
-    <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Cherry+Swash|Swanky+and+Moo+Moo" rel="stylesheet">
     <!-- js link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="script.js"></script>
@@ -15,17 +17,7 @@
 
   <body>
   <!-- logo -->
-  <header> <a href=''>Flash Cards</a></header>
-
-  <!-- nav bar -->
-
-  <div id="nav">
-    <ul class="nav">
-      <li><a href="index.html" id="home">HOME</a></li>
-      <li><a href="instructions.html" id="instructions">INSTRUCTIONS</a></li>
-      <li><a href="contact.html" id="contact">CONTACT</a></li>
-    </ul>
-  </div>
+    <header> <a href='' class="hovicon">Flashcards</a></header>
 
   <!-- opening flash card div -->
   <div class="stage">
@@ -42,13 +34,17 @@
       <!-- <figure> .back -->
       <figure class="back">
         <div class="flashcard">
-        <p>Thanks!  Glad you're here.  Click the "Get Started" button below when you're ready to learn.</p>
+        <p>Click the "Get Started" button below when you are ready to create your own flashcards.</p>
         </div>
       </figure>
   </div>
 </div>
     <!-- begin learning button -->
-<a class="getstarted" href="flashcardgame.html">Get Started</a>
+      <form action="flashcardgame.html">
+        <input  class="btn getstarted" type="submit" name="" value="Get Started" />
+      </form>
+
+<!-- <a class="getstarted" href="flashcardgame.html">Get Started</a> -->
 
   </body>
 </html>

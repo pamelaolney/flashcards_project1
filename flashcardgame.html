@@ -2,10 +2,12 @@
 
 <html>
 <head>
+  <!--bootstrap cdn -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- css link -->
   <link rel="stylesheet" type="text/css" href="style.css">
   <!-- font link -->
-  <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Cherry+Swash|Swanky+and+Moo+Moo" rel="stylesheet">
   <!-- js link -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="script.js"></script>
@@ -15,17 +17,7 @@
 
 <body>
 <!-- logo -->
-<header> <a href='index.html'>Flash Cards</a></header>
-
-
-  <!-- nav bar -->
-  <div id="nav">
-    <ul class="nav">
-      <li><a href="index.html" id="home">HOME</a></li>
-      <li><a href="instructions.html" id="instructions">INSTRUCTIONS</a></li>
-      <li><a href="contact.html" id="contact">CONTACT</a></li>
-    </ul>
-  </div>
+  <header> <a href='index.html' class="hovicon">Flashcards</a></header>
 
 
 <!-- tabs for flashcards -->
@@ -37,6 +29,11 @@
             <li><a href="#tab3">3</a></li>
             <li><a href="#tab4">4</a></li>
             <li><a href="#tab5">5</a></li>
+            <li><a href="#tab6">6</a></li>
+            <li><a href="#tab7">7</a></li>
+            <li><a href="#tab8">8</a></li>
+            <li><a href="#tab9">9</a></li>
+            <li><a href="#tab10">10</a></li>
         </ul>
 
         <div class="tab-content">
@@ -44,9 +41,9 @@
           <!-- TAB 1 -->
             <div id="tab1" class="tab active">
               <div class="stage">
-                  <div class="insertbutton">
-                    <button class="insertQuestion">insert question here</button>
-                    <button class="insertAnswer">insert answer here</button>
+                  <div class="insertbutton row">
+                    <button class="btn btn-primary insertQuestion">insert question here</button>
+                    <button class="btn btn-primary insertAnswer">insert answer here</button>
                   </div>
                   <div class="card">
                     <figure class="front1" id="tab1front">
@@ -65,8 +62,8 @@
           <div id="tab2" class="tab">
             <div class="stage">
               <div class="insertbutton">
-                <button class="insertQuestion2">insert question here</button>
-                <button class="insertAnswer2">insert answer here</button>
+                <button class="btn btn-primary insertQuestion2">insert question here</button>
+                <button class="btn btn-primary insertAnswer2">insert answer here</button>
               </div>
               <div class="card">
                 <figure class="front1" id="tab2front">
@@ -83,8 +80,8 @@
             <div id="tab3" class="tab">
               <div class="stage">
                 <div class="insertbutton">
-                  <button class="insertQuestion3">insert question here</button>
-                  <button class="insertAnswer3">insert answer here</button>
+                  <button class="btn btn-primary insertQuestion3">insert question here</button>
+                  <button class="btn btn-primary insertAnswer3">insert answer here</button>
                 </div>
                   <div class="card">
                     <figure class="front1" id="tab3front">
@@ -101,8 +98,8 @@
             <div id="tab4" class="tab">
               <div class="stage">
                 <div class="insertbutton">
-                  <button class="insertQuestion4">insert question here</button>
-                  <button class="insertAnswer4">insert answer here</button>
+                  <button class="btn btn-primary insertQuestion4">insert question here</button>
+                  <button class="btn btn-primary insertAnswer4">insert answer here</button>
                 </div>
                   <div class="card">
                     <figure class="front1" id="tab4front">
@@ -119,8 +116,8 @@
             <div id="tab5" class="tab">
               <div class="stage">
                 <div class="insertbutton">
-                  <button class="insertQuestion5">insert question here</button>
-                  <button class="insertAnswer5">insert answer here</button>
+                  <button class="btn btn-primary insertQuestion5">insert question here</button>
+                  <button class="btn btn-primary insertAnswer5">insert answer here</button>
                 </div>
                   <div class="card">
                     <figure class="front1" id="tab5front">
@@ -132,6 +129,96 @@
               </div>
             </div>
           </div>
+
+          <!-- TAB 6 -->
+          <div id="tab6" class="tab">
+            <div class="stage">
+              <div class="insertbutton">
+                <button class="btn btn-primary insertQuestion6">insert question here</button>
+                <button class="btn btn-primary insertAnswer6">insert answer here</button>
+              </div>
+                <div class="card">
+                  <figure class="front1" id="tab6front">
+                    <p>Question 6</p>
+                  </figure>
+                <figure class="back1" id="tab6back">
+                  <p>Answer 6</p>
+                </figure>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 7 -->
+        <div id="tab7" class="tab">
+          <div class="stage">
+            <div class="insertbutton">
+              <button class="btn btn-primary insertQuestion7">insert question here</button>
+              <button class="btn btn-primary insertAnswer7">insert answer here</button>
+            </div>
+              <div class="card">
+                <figure class="front1" id="tab7front">
+                  <p>Question 7</p>
+                </figure>
+              <figure class="back1" id="tab7back">
+                <p>Answer 7</p>
+              </figure>
+          </div>
+        </div>
+      </div>
+
+        <!-- TAB 8 -->
+        <div id="tab8" class="tab">
+          <div class="stage">
+            <div class="insertbutton">
+              <button class="btn btn-primary insertQuestion8">insert question here</button>
+              <button class="btn btn-primary insertAnswer8">insert answer here</button>
+            </div>
+              <div class="card">
+                <figure class="front1" id="tab8front">
+                  <p>Question 8</p>
+                </figure>
+              <figure class="back1" id="tab8back">
+                <p>Answer 8</p>
+              </figure>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 9 -->
+      <div id="tab9" class="tab">
+        <div class="stage">
+          <div class="insertbutton">
+            <button class="btn btn-primary insertQuestion9">insert question here</button>
+            <button class="btn btn-primary insertAnswer9">insert answer here</button>
+          </div>
+          <div class="card">
+            <figure class="front1" id="tab9front">
+              <p>Question 9</p>
+            </figure>
+            <figure class="back1" id="tab9back">
+              <p>Answer 9</p>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 10 -->
+      <div id="tab10" class="tab">
+        <div class="stage">
+          <div class="insertbutton">
+            <button class="btn btn-primary insertQuestion10">insert question here</button>
+            <button class="btn btn-primary insertAnswer10">insert answer here</button>
+          </div>
+          <div class="card">
+            <figure class="front1" id="tab10front">
+              <p>Question 10</p>
+            </figure>
+            <figure class="back1" id="tab10back">
+              <p>Answer 10</p>
+            </figure>
+          </div>
+        </div>
+      </div>
 
 <!-- below is close div for tab-content -->
         </div>
