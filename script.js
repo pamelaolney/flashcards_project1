@@ -45,7 +45,7 @@ $("#tab1back").html(flashcards[0].answer).css({"font-size": "12px", "font-family
 
 $(".insertAnswer").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
-  $("#tab1back").eq(0).html(insertAnswerButton).css({"font-size": "40px", "font-family": "Swanky and Moo Moo"});
+  $("#tab1back").eq(0).html(insertAnswerButton).css({"font-size": "33px", "font-family": "Swanky and Moo Moo", "padding": "0"});
 })
 
 //--------tab 2 insert -----------------|
@@ -61,7 +61,7 @@ $("#tab2back").html(flashcards[0].answer).css({"font-size": "12px", "font-family
 
 $(".insertAnswer2").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
-  $("#tab2back").eq(0).html(insertAnswerButton).css({"font-size": "40px", "font-family": "Swanky and Moo Moo"});
+  $("#tab2back").eq(0).html(insertAnswerButton).css({"font-size": "33px", "font-family": "Swanky and Moo Moo", "padding": "0"});
 })
 
 
@@ -78,7 +78,7 @@ $("#tab3back").html(flashcards[0].answer).css({"font-size": "12px", "font-family
 
 $(".insertAnswer3").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
-  $("#tab3back").eq(0).html(insertAnswerButton).css({"font-size": "40px", "font-family": "Swanky and Moo Moo"});
+  $("#tab3back").eq(0).html(insertAnswerButton).css({"font-size": "33px", "font-family": "Swanky and Moo Moo", "padding": "0"});
 })
 
 //--------tab 4 insert -----------------|
@@ -94,7 +94,7 @@ $("#tab4back").html(flashcards[0].answer).css({"font-size": "12px", "font-family
 
 $(".insertAnswer4").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
-  $("#tab4back").eq(0).html(insertAnswerButton).css({"font-size": "40px", "font-family": "Swanky and Moo Moo"});
+  $("#tab4back").eq(0).html(insertAnswerButton).css({"font-size": "33px", "font-family": "Swanky and Moo Moo", "padding": "0"});
 })
 
 //--------tab 5 insert -----------------|
@@ -110,7 +110,7 @@ $("#tab5back").html(flashcards[0].answer).css({"font-size": "12px", "font-family
 
 $(".insertAnswer5").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
-  $("#tab5back").eq(0).html(insertAnswerButton).css({"font-size": "40px", "font-family": "Swanky and Moo Moo"});
+  $("#tab5back").eq(0).html(insertAnswerButton).css({"font-size": "33px", "font-family": "Swanky and Moo Moo", "padding": "0"});
 })
 
 //--------tab 6 insert -----------------|
@@ -126,7 +126,7 @@ $("#tab6back").html(flashcards[0].answer).css({"font-size": "12px", "font-family
 
 $(".insertAnswer6").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
-  $("#tab6back").eq(0).html(insertAnswerButton).css({"font-size": "40px", "font-family": "Swanky and Moo Moo"});
+  $("#tab6back").eq(0).html(insertAnswerButton).css({"font-size": "33px", "font-family": "Swanky and Moo Moo", "padding": "0"});
 })
 
 
@@ -143,7 +143,7 @@ $("#tab7back").html(flashcards[0].answer).css({"font-size": "12px", "font-family
 
 $(".insertAnswer7").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
-  $("#tab7back").eq(0).html(insertAnswerButton).css({"font-size": "40px", "font-family": "Swanky and Moo Moo"});
+  $("#tab7back").eq(0).html(insertAnswerButton).css({"font-size": "33px", "font-family": "Swanky and Moo Moo", "padding": "0"});
 })
 
 
@@ -161,7 +161,7 @@ $("#tab8back").html(flashcards[0].answer).css({"font-size": "12px", "font-family
 
 $(".insertAnswer8").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
-  $("#tab8back").eq(0).html(insertAnswerButton).css({"font-size": "40px", "font-family": "Swanky and Moo Moo"});
+  $("#tab8back").eq(0).html(insertAnswerButton).css({"font-size": "33px", "font-family": "Swanky and Moo Moo", "padding": "0"});
 })
 
 //-------tab 9 insert -------------------/
@@ -177,7 +177,7 @@ $("#tab9back").html(flashcards[0].answer).css({"font-size": "12px", "font-family
 
 $(".insertAnswer9").on("click", function(){
   var insertAnswerButton = prompt("Please insert answer here");
-  $("#tab9back").eq(0).html(insertAnswerButton).css({"font-size": "40px", "font-family": "Swanky and Moo Moo"});
+  $("#tab9back").eq(0).html(insertAnswerButton).css({"font-size": "33px", "font-family": "Swanky and Moo Moo", "padding": "0"});
 })
 
 //--------tab 10 insert -------------------/
@@ -193,7 +193,7 @@ $("#tab10back").html(flashcards[0].answer).css({"font-size": "12px", "font-famil
 
 $(".insertAnswer10").on("click", function(){
   var insertAnswerButton= prompt("Please insert your answer here");
-  $("#tab10back").eq(0).html(insertAnswerButton).css({"font-size": "40px", "font-family": "Swanky and Moo Moo"});
+  $("#tab10back").eq(0).html(insertAnswerButton).css({"font-size": "33px", "font-family": "Swanky and Moo Moo", "padding": "0"});
 })
 //hide the music after click
   $('#hidemusic').click(function () {
