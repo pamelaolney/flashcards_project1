@@ -5,8 +5,9 @@
 }
 
 body {
-  background: url("background.jpg") no-repeat;
+  background: url("windmill.jpg") no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   /*background: linear-gradient(white, white, #4b5668);*/
 }
 
